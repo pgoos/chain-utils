@@ -1,0 +1,35 @@
+{
+  "name": "chain-utils",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Piotr Gesicki",
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "yr eslint . --ext mjs",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "zx": "^7.0.7"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "0.23.4",
+    "eslint": "8.24.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-config-standard": "17.0.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-n": "15.3.0",
+    "eslint-plugin-promise": "6.0.1",
+    "prettier": "2.7.1",
+    "vitest": "0.23.4"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5"
+  }
+}

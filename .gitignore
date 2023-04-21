@@ -1,0 +1,7 @@
+node_modules
+/*.json
+!package.json
+.env*
+profiles/*.json
+!profiles/localnet.json
+coverage/
