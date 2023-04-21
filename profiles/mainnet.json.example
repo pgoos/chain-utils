@@ -1,0 +1,10 @@
+{
+  "address": "",
+  "mnemonic": "",
+  "chainId": "coreum-mainnet-1",
+  "hostname": "full-node.mainnet-1.coreum.dev",
+  "port": 26657,
+  "protocol": "https",
+  "nativeAsset": "ucore",
+  "faucetUrl": ""
+}

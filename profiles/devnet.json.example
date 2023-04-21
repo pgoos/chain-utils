@@ -1,0 +1,10 @@
+{
+  "address": "",
+  "mnemonic": "",
+  "chainId": "coreum-devnet-1",
+  "hostname": "full-node.devnet-1.coreum.dev",
+  "port": 26657,
+  "protocol": "https",
+  "nativeAsset": "udevcore",
+  "faucetUrl": "https://api.devnet-1.coreum.dev/api/faucet/v1/fund"
+}
